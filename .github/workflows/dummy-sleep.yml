@@ -1,0 +1,11 @@
+name: Dummy Sleep CI
+
+on:
+  - pull_request
+
+jobs:
+  sleep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sleep 30s
+        run: sleep 30
