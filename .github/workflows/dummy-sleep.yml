@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sleep 30s
-        run: (exit)
+        run: (sleep 30; exit 1)
